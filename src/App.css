@@ -4,17 +4,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("https://wallpaperaccess.com/full/250502.jpg");
+  border: 2px solid greenyellow;
+  font-family:'Courier New', Courier, monospace;
+  border-bottom: 2px solid greenyellow;
+  border-top: 2px solid greenyellow;
+ color:greenyellow;
+
+
 }
 
 .product {
-  background: white;
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
-  border-radius: 3px;
+  justify-content: space-evenly;
+  width: 700px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.title{
+  font-size:20px;
   width: 100px;
   height: 100px;
-  margin: 25px;
+  /* margin-bottom: 80px; */
 }
 
+.image {
+border: solid greenyellow;
+background: greenyellow;
+width: 150px;
+align-items: center;
+height: 150px;
 
+}
+
+.description {
+text-align: initial;
+width: 200px;
+color:greenyellow;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+.price {
+  color:greenyellow;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.searchForm {
+  display: flex;
+  /* margin-left: 50px; */
+}
